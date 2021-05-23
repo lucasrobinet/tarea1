@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var autor_1 = require("./autor");
+var autor1 = new autor_1.Autor();
+autor1.setNombre('Carlos');
+autor1.setApellido('Sanchez');
+autor1.setEdad(54);
+autor1.setNacionalidad('Argentina');
+console.log(autor1.getNombre());
+console.log(autor1.getApellido());
+console.log(autor1.getEdad());
+console.log(autor1.getNacionalidad());
